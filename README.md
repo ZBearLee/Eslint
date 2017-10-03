@@ -37,33 +37,60 @@ Eslint代码规范
 映射为
 ```
 module.exports = {
+
     "env": {
+    
         "browser": true,
+        
         "es6": true
     },
+    
     "extends": "eslint:recommended",
+    
     "parserOptions": {
+    
         "sourceType": "module"
+        
     },
+    
     "rules": {
+    
         "indent": [  //缩进
+        
             "error",
+            
             "tab"
+            
         ],
+        
         "linebreak-style": [ //换行符
+        
             "error",
+            
             "windows"
+            
         ],
+        
         "quotes": [
+        
             "error",
+            
             "double"
+            
         ],
+        
         "semi": [
+        
             "error",
+            
             "never"
+            
         ]
+        
     }
+    
 };
+
 ```
 
 
