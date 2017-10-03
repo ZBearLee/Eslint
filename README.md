@@ -2,9 +2,10 @@
 Eslint代码规范
 
 ## node.js命令安装和执行
-```cnpm install -g eslint  //全局安装eslint
+```
+   cnpm install -g eslint  //全局安装eslint
    yarn add eslint  //本地项目添加eslint
-   eslint --init    //初始化一个.eslintrc.js隐藏文件.
+   eslint --init    //初始化一个.eslintrc.js隐藏文件
    eslint index.js
    node index.js
    ```
@@ -87,8 +88,7 @@ module.exports = {
             
         ]
         
-    }
-    
+    } 
 };
 
 ```
